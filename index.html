@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+я
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Margiela</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+    <header>
+    <!-- 1. ШАПКА САЙТА -->
+    <!-- Класс container ограничивает ширину и центрирует контент -->
+    <img src="images/logo.svg" alt="Логотип MM6" class="hero-img">
+    </header>   
+
+
+
+
+    <!-- ОСНОВНОЙ КОНТЕНТ (все секции оборачиваем в main) -->
+    <main>
+        
+        <!-- 2. БЛОК С КАРТИНКАМИ -->
+        <!-- Часто это первый экран (Hero section), где лежит большое фото и текст поверх него -->
+        <section class="images-section">
+            <!-- Если картинка должна быть на всю ширину экрана, container здесь может не понадобиться внутри -->
+            <div class="container">
+                <img src="img/hero.jpg" alt="Главное изображение" class="hero-img">
+            </div>
+        </section>
+
+        <!-- 3. ТЕКСТОВЫЙ БЛОК -->
+        <section class="text-section container">
+            <h1>Заголовок страницы</h1>
+            <p>Здесь будет текст, который вы видите в слое text в Figma.</p>
+        </section>
+
+        <!-- 4. БЛОК С ЦЕНАМИ -->
+        <section class="prices container">
+            <h2>Наши цены</h2>
+            
+            <!-- Сетка для карточек -->
+            <div class="prices-grid">
+                <!-- Карточка 1 -->
+                <div class="price-card">
+                    <h3>Название тарифа</h3>
+                    <p>Описание</p>
+                    <span class="price">1 000 ₽</span>
+                    <button>Выбрать</button>
+                </div>
+                <!-- Карточка 2 -->
+                <div class="price-card">...</div>
+                <!-- Карточка 3 -->
+                <div class="price-card">...</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 5. ПОДВАЛ (FOOTER) -->
+    <footer class="footer">
+        <!-- Подвал часто делают на всю ширину, а контент внутри центрируют контейнером -->
+        <div class="container">
+            <!-- Здесь будут ссылки, контакты, © 2024 и т.д. -->
+        </div>
+    </footer>
+
+</body>
+</html>
